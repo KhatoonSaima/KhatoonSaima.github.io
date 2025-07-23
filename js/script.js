@@ -89,7 +89,9 @@ document.addEventListener('DOMContentLoaded', function() {
         observer.observe(skillsSection);
     }
     
-
+  // Handles contact form submission via EmailJS by preventing default behavior,
+  // sending form data to the configured service and template,
+  // and providing user feedback on success or failure.
     const form = document.getElementById("contact-form");
     
       form.addEventListener("submit", function (e) {
