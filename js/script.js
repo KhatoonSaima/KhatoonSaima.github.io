@@ -101,6 +101,24 @@ document.addEventListener('DOMContentLoaded', function() {
             this.reset();
         });
     }*/
+
+    <script>
+      const form = document.getElementById("contact-form");
+    
+      form.addEventListener("submit", function (e) {
+        e.preventDefault();
+    
+        emailjs.sendForm("service_5o4yk5g", "service_5o4yk5g", form)
+          .then(() => {
+            alert("Message sent successfully!");
+            form.reset();
+          }, (error) => {
+            alert("Failed to send message. Try again.");
+            console.error(error);
+          });
+      });
+    </script>
+
     
     // Testimonial slider functionality
     const testimonials = document.querySelectorAll('.testimonial-card');
