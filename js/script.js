@@ -90,9 +90,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     
 
-
-    <script>
-      const form = document.getElementById("contact-form");
+    const form = document.getElementById("contact-form");
     
       form.addEventListener("submit", function (e) {
         e.preventDefault();
@@ -106,7 +104,6 @@ document.addEventListener('DOMContentLoaded', function() {
             console.error(error);
           });
       });
-    </script>
 
     
     // Testimonial slider functionality
