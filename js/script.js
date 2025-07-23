@@ -89,18 +89,7 @@ document.addEventListener('DOMContentLoaded', function() {
         observer.observe(skillsSection);
     }
     
-    // Simple form submission handling
-    /*const contactForm = document.querySelector('.contact-form');
-    if (contactForm) {
-        contactForm.addEventListener('submit', function(e) {
-            e.preventDefault();
-            
-            // Here you would typically send the form data to a server
-            // For demo purposes, we'll just show an alert
-            alert('Thank you for your message! I will get back to you soon.');
-            this.reset();
-        });
-    }*/
+
 
     <script>
       const form = document.getElementById("contact-form");
