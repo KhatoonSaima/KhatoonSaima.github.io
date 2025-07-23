@@ -90,7 +90,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     
     // Simple form submission handling
-    const contactForm = document.querySelector('.contact-form');
+    /*const contactForm = document.querySelector('.contact-form');
     if (contactForm) {
         contactForm.addEventListener('submit', function(e) {
             e.preventDefault();
@@ -100,7 +100,7 @@ document.addEventListener('DOMContentLoaded', function() {
             alert('Thank you for your message! I will get back to you soon.');
             this.reset();
         });
-    }
+    }*/
     
     // Testimonial slider functionality
     const testimonials = document.querySelectorAll('.testimonial-card');
